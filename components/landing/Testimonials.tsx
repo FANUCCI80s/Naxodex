@@ -7,7 +7,7 @@ const testimonials = [
     quote:
       "The interface feels clean and focused. I can find the account information I need without fighting through a complicated dashboard.",
     name: "Michael R.",
-    role: "THÉSOROS User",
+    role: "NAXODEX User",
     image: "/michael.jpg",
     rating: 5,
   },
@@ -15,7 +15,7 @@ const testimonials = [
     quote:
       "I like having my market activity and account management experience organized in one place. Everything feels much easier to navigate.",
     name: "Daniel K.",
-    role: "THÉSOROS User",
+    role: "NAXODEX User",
     image: "/daniel.jpg",
     rating: 4,
   },
@@ -23,7 +23,7 @@ const testimonials = [
     quote:
       "The platform has a modern feel and makes the overall investment experience much easier to navigate.",
     name: "Sarah M.",
-    role: "THÉSOROS User",
+    role: "NAXODEX User",
     image: "/sarah.jpg",
     rating: 5,
   },
@@ -31,15 +31,15 @@ const testimonials = [
     quote:
       "Everything feels thoughtfully organized. The experience is straightforward without losing the premium feel of the platform.",
     name: "James A.",
-    role: "THÉSOROS User",
+    role: "NAXODEX User",
     image: "/james.jpg",
     rating: 4,
   },
   {
     quote:
-      "THÉSOROS gives me a much clearer view of my account and investments. The overall experience feels polished and easy to understand.",
+      "NAXODEX gives me a much clearer view of my account and investments. The overall experience feels polished and easy to understand.",
     name: "Olivia T.",
-    role: "THÉSOROS User",
+    role: "NAXODEX User",
     image: "/olivia.jpg",
     rating: 5,
   },
@@ -47,7 +47,7 @@ const testimonials = [
     quote:
       "The platform makes it easy to keep track of my financial activity while maintaining a clean and professional experience.",
     name: "Alexander M.",
-    role: "THÉSOROS User",
+    role: "NAXODEX User",
     image: "/alexander.jpg",
     rating: 4,
   },
@@ -55,7 +55,7 @@ const testimonials = [
     quote:
       "I appreciate how the platform brings everything together in a way that feels structured, intuitive, and easy to use.",
     name: "Jonathan R.",
-    role: "THÉSOROS User",
+    role: "NAXODEX User",
     image: "/jonathan.jpg",
     rating: 5,
   },
@@ -63,15 +63,15 @@ const testimonials = [
     quote:
       "The overall experience feels refined and well considered. I can move through my account without unnecessary complexity.",
     name: "Marcus T.",
-    role: "THÉSOROS User",
+    role: "NAXODEX User",
     image: "/marcus.jpg",
     rating: 4,
   },
   {
     quote:
-      "THÉSOROS gives the entire experience a sense of clarity. The interface feels premium while remaining simple to understand.",
+      "NAXODEX gives the entire experience a sense of clarity. The interface feels premium while remaining simple to understand.",
     name: "Amelia R.",
-    role: "THÉSOROS User",
+    role: "NAXODEX User",
     image: "/amelia.jpg",
     rating: 5,
   },
@@ -79,7 +79,7 @@ const testimonials = [
     quote:
       "The platform provides a smooth and organized experience. I especially like how easy it is to find the information I need.",
     name: "Sophia K.",
-    role: "THÉSOROS User",
+    role: "NAXODEX User",
     image: "/sophia.jpg",
     rating: 4,
   },
@@ -87,7 +87,7 @@ const testimonials = [
     quote:
       "The combination of a polished interface and straightforward navigation makes managing my account feel much more comfortable.",
     name: "Victoria A.",
-    role: "THÉSOROS User",
+    role: "NAXODEX User",
     image: "/victoria.jpg",
     rating: 5,
   },

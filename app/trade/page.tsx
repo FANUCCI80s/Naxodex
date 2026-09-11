@@ -1,4 +1,4 @@
-﻿
+
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
@@ -770,7 +770,7 @@ function TradeHeader() {
     <div className="mb-8 pr-14 lg:pr-0">
       <div className="mb-3 flex items-center gap-2 text-xs font-medium uppercase tracking-[0.25em] text-[#d4af37]">
         <TrendingUp size={15} />
-        THÉSOROS TRADE
+        NAXODEX TRADE
       </div>
 
       <h1 className="font-serif text-4xl tracking-tight sm:text-5xl">
@@ -858,8 +858,8 @@ function MobileTradeNavbar({
             className="inline-flex items-center"
           >
             <img
-              src="/branding/thesoros-logo.png"
-              alt="THÉSOROS"
+              src="/branding/NAXODEX-logo.png"
+              alt="NAXODEX"
               className="block h-10 w-auto max-w-[190px] object-contain"
             />
           </a>

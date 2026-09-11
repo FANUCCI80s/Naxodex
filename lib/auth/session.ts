@@ -1,9 +1,9 @@
-﻿import "server-only";
+import "server-only";
 import { cookies } from "next/headers";
 import { createHash, randomBytes } from "crypto";
 import { prisma } from "@/lib/prisma";
 
-const SESSION_COOKIE_NAME = "thesoros_session";
+const SESSION_COOKIE_NAME = "NAXODEX_session";
 
 const SESSION_DURATION_MS =
   1000 * 60 * 60 * 24 * 30;

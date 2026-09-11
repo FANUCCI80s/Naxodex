@@ -14,7 +14,7 @@ accentColor: string;
 export default function AdminSettingsPage() {
 const [settings, setSettings] = useState<PlatformSettings | null>(null);
 
-const [platformName, setPlatformName] = useState("Thesoros");
+const [platformName, setPlatformName] = useState("NAXODEX");
 const [logoUrl, setLogoUrl] = useState("");
 const [primaryColor, setPrimaryColor] = useState("#E8C766");
 const [secondaryColor, setSecondaryColor] = useState("#FAF7F0");
@@ -79,7 +79,7 @@ setError("");
   }
 
   setSettings(loaded);
-  setPlatformName(loaded.platformName || "Thesoros");
+  setPlatformName(loaded.platformName || "NAXODEX");
   setLogoUrl(loaded.logoUrl || "");
   setPrimaryColor(loaded.primaryColor || "#E8C766");
   setSecondaryColor(loaded.secondaryColor || "#FAF7F0");
@@ -140,7 +140,7 @@ try {
 
   setSettings(data.settings);
 
-  setPlatformName(data.settings.platformName || "Thesoros");
+  setPlatformName(data.settings.platformName || "NAXODEX");
   setLogoUrl(data.settings.logoUrl || "");
   setPrimaryColor(data.settings.primaryColor || "#E8C766");
   setSecondaryColor(data.settings.secondaryColor || "#FAF7F0");
@@ -177,7 +177,7 @@ Admin Panel </p>
       </h1>
 
       <p className="mt-2 text-sm !text-[#FFFFFF]">
-        Manage the basic branding settings for Thesoros.
+        Manage the basic branding settings for NAXODEX.
       </p>
     </div>
 
@@ -221,7 +221,7 @@ Admin Panel </p>
               onChange={(event) =>
                 setPlatformName(event.target.value)
               }
-              placeholder="Thesoros"
+              placeholder="NAXODEX"
               className="w-full rounded-xl border border-white/10 bg-black/30 px-4 py-3 text-white outline-none placeholder:!text-[#FFFFFF] focus:border-gold/50"
             />
           </div>
@@ -317,7 +317,7 @@ Admin Panel </p>
               )}
 
               <span className="font-bold">
-                {platformName || "Thesoros"}
+                {platformName || "NAXODEX"}
               </span>
             </div>
 

@@ -23,10 +23,10 @@ export default function DownloadPage() {
         <div className="absolute inset-0 bg-black/20" />
       </div>
 
-      {/* Large Background THÉSOROS Logo */}
+      {/* Large Background NAXODEX Logo */}
       <div className="pointer-events-none absolute inset-0 z-[1] flex items-center justify-center">
         <Image
-          src="/branding/thesoros-logo.png"
+          src="/branding/NAXODEX-logo.png"
           alt=""
           width={900}
           height={300}
@@ -46,11 +46,11 @@ export default function DownloadPage() {
           <Link
             href="/"
             className="inline-flex items-center"
-            aria-label="THÉSOROS Home"
+            aria-label="NAXODEX Home"
           >
             <Image
-              src="/branding/thesoros-logo.png"
-              alt="THÉSOROS"
+              src="/branding/NAXODEX-logo.png"
+              alt="NAXODEX"
               width={180}
               height={60}
               priority
@@ -63,7 +63,7 @@ export default function DownloadPage() {
         <section className="flex flex-1 items-center justify-center px-6 pb-16 pt-10 sm:px-10">
           <div className="mx-auto max-w-4xl text-center">
             <p className="mb-5 text-xs font-bold uppercase tracking-[0.35em] text-gold sm:text-sm">
-              THÉSOROS Mobile
+              NAXODEX Mobile
             </p>
 
             <h1 className="text-4xl font-bold leading-tight tracking-tight text-white sm:text-6xl lg:text-7xl">
@@ -73,7 +73,7 @@ export default function DownloadPage() {
             </h1>
 
             <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-white/80 sm:text-lg sm:leading-8">
-              The THÉSOROS Android experience is coming soon.
+              The NAXODEX Android experience is coming soon.
               We are carefully crafting a seamless mobile
               experience for managing and growing your wealth
               wherever you are.
@@ -100,7 +100,7 @@ export default function DownloadPage() {
         {/* Footer */}
         <footer className="px-6 pb-7 text-center sm:px-10">
           <p className="text-xs text-white/50">
-            © {new Date().getFullYear()} THÉSOROS. All rights reserved.
+            © {new Date().getFullYear()} NAXODEX. All rights reserved.
           </p>
         </footer>
       </div>

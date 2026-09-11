@@ -118,7 +118,7 @@ export default function ContactForm() {
             </h2>
 
             <p className="mt-5 max-w-xl text-base leading-7 !text-[#FFFFFF]">
-              Send a message to the THÉSOROS team. Tell us what you
+              Send a message to the NAXODEX team. Tell us what you
               need help with and our team will review your request.
             </p>
 
@@ -216,7 +216,7 @@ export default function ContactForm() {
                 </p>
 
                 <p className="mt-1 text-sm text-gold/80">
-                  Thank you for contacting THÉSOROS.
+                  Thank you for contacting NAXODEX.
                 </p>
               </div>
             )}

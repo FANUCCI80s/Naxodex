@@ -140,15 +140,15 @@ export default function SettingsClient() {
             >
               <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-gold/30 bg-gold/10">
                 <img
-                  src="/branding/thesoros-logo.png"
-                  alt="THÉSOROS"
+                  src="/branding/NAXODEX-logo.png"
+                  alt="NAXODEX"
                   className="h-8 w-auto object-contain"
                 />
               </div>
 
               <div>
                 <p className="font-bold tracking-tight">
-                  Thesoros
+                  NAXODEX
                 </p>
 
                 <p className="text-xs !text-[#FFFFFF]">

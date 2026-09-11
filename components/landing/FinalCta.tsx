@@ -39,21 +39,21 @@ export default function FinalCta() {
 
           <div className="relative">
             <img
-              src="/branding/thesoros-logo.png"
-              alt="THÉSOROS"
+              src="/branding/NAXODEX-logo.png"
+              alt="NAXODEX"
               className="mx-auto h-9 w-auto object-contain"
             />
 
             <p className="mt-7 text-xs font-bold uppercase tracking-[0.25em] text-gold">
-              Thesoros
+              NAXODEX
             </p>
 
             <h2 className="mx-auto mt-5 max-w-3xl text-4xl font-bold tracking-tight !text-[#FFFFFF] sm:text-6xl">
-              Build your thésoros in the markets.
+              Build your NAXODEX in the markets.
             </h2>
 
             <p className="mx-auto mt-6 max-w-xl leading-7 !text-[#FFFFFF]">
-              Create your Thesoros account and access a modern
+              Create your NAXODEX account and access a modern
               environment for managing your market journey.
             </p>
 

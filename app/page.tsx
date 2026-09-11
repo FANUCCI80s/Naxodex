@@ -1,8 +1,7 @@
 import Navbar from "@/components/navigation/Navbar";
 import Hero from "@/components/landing/Hero";
 import MarketsPreview from "@/components/landing/MarketsPreview";
-import PerformanceSection from "@/components/landing/PerformanceSection";
-import WhyThesoros from "@/components/landing/WhyThesoros";
+import WhyNAXODEX from "@/components/landing/WhyNAXODEX";
 import HowItWorks from "@/components/landing/HowItWorks";
 import Testimonials from "@/components/landing/Testimonials";
 import ContactForm from "@/components/landing/ContactForm";
@@ -10,6 +9,7 @@ import FAQ from "@/components/landing/FAQ";
 import ActivityNotifications from "@/components/landing/ActivityNotifications";
 import FinalCta from "@/components/landing/FinalCta";
 import Footer from "@/components/landing/Footer";
+import MarketTicker from "@/components/landing/MarketTicker";
 
 export default function HomePage() {
   return (
@@ -18,14 +18,14 @@ export default function HomePage() {
 
       <Hero />
 
+      <MarketTicker />
+
       {/* Recent deposit and withdrawal activity */}
       <ActivityNotifications />
 
       <MarketsPreview />
 
-      <PerformanceSection />
-
-      <WhyThesoros />
+      <WhyNAXODEX />
 
       <HowItWorks />
 

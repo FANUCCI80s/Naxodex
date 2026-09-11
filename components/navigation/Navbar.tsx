@@ -11,10 +11,10 @@ return ( <header className="border-b border-white/[0.06] bg-[#050505]/90 backdro
 {/* Logo */} <Link
        href="/"
        className="flex items-center"
-       aria-label="Thesoros home"
+       aria-label="NAXODEX home"
      > <Image
-         src="/branding/thesoros-logo.png"
-         alt="Thesoros"
+         src="/branding/NAXODEX-logo.png"
+         alt="NAXODEX"
          width={200}
          height={58}
          priority
@@ -32,10 +32,10 @@ return ( <header className="border-b border-white/[0.06] bg-[#050505]/90 backdro
       </a>
 
       <a
-        href="#why-thésoros"
+        href="#why-NAXODEX"
         className="text-sm text-zinc-400 transition hover:!text-[#FFFFFF]"
       >
-        Why THÉSOROS
+        Why NAXODEX
       </a>
 
       <a
@@ -118,11 +118,11 @@ return ( <header className="border-b border-white/[0.06] bg-[#050505]/90 backdro
         </a>
 
         <a
-          href="#why-thésoros"
+          href="#why-NAXODEX"
           onClick={() => setMobileOpen(false)}
           className="rounded-xl px-4 py-3 text-sm text-zinc-400 transition hover:bg-white/[0.04] hover:!text-[#FFFFFF]"
         >
-          Why THÉSOROS
+          Why NAXODEX
         </a>
 
         <a

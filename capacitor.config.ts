@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
-  appId: "com.thesoros.app",
-  appName: "THÉSOROS",
+  appId: "com.NAXODEX.app",
+  appName: "NAXODEX",
   webDir: "public",
   server: {
     url: "https://xn--thsoros-cya.com",

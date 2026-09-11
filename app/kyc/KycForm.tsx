@@ -220,7 +220,7 @@ export default function KycPage() {
               </div>
 
               <span className="text-xl font-bold tracking-tight">
-                Thesoros
+                NAXODEX
               </span>
             </div>
 

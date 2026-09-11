@@ -186,36 +186,36 @@ function GlobalIcon() {
 
 const capabilities: Capability[] = [
   {
-    title: "AI WEALTH",
-    title2: "MANAGER",
-    description: "Hyper-personalized portfolio automation.",
+    title: "CRYPTO",
+    title2: "MARKETS",
+    description: "Access a modern environment built for cryptocurrency trading.",
     icon: <WealthManagerIcon />,
   },
   {
-    title: "SMART HERITAGE",
-    title2: "PLANNING",
-    description: "Plan legacy transfers with confidence.",
+    title: "SMART",
+    title2: "TRADING TOOLS",
+    description: "Powerful tools designed to support your trading journey.",
     icon: <HeritageIcon />,
   },
   {
-    title: "CULTURAL INVESTMENT",
-    title2: "ROUTES",
+    title: "REAL-TIME",
+    title2: "MARKET ACCESS",
     description:
-      "Invest in sustainable projects aligned with your values.",
+      "Stay connected to changing crypto markets and trading opportunities.",
     icon: <CulturalIcon />,
   },
   {
-    title: "TREASURY-GRADE",
-    title2: "SECURITY",
+    title: "SECURE",
+    title2: "PLATFORM",
     description:
-      "Blockchain vaulting, biometrics, and real-time risk AI.",
+      "Built with security and account protection at the core of your experience.",
     icon: <SecurityIcon />,
   },
   {
     title: "GLOBAL",
-    title2: "ACCESS",
+    title2: "CRYPTO ACCESS",
     description:
-      "Multi-currency, multi-lingual, multi-platform.",
+      "Trade cryptocurrency through a platform designed for a global trading community.",
     icon: <GlobalIcon />,
   },
 ];
@@ -271,7 +271,7 @@ function CapabilityCard({
         <div className="mt-auto flex items-center gap-2 pt-6">
           <span className="h-px w-6 bg-gold/40 transition-all duration-500 group-hover:w-10 group-hover:bg-gold/70" />
           <span className="text-[8px] uppercase tracking-[0.2em] !text-[#FFFFFF] transition-colors duration-300 group-hover:text-gold/50">
-            THÉSOROS
+            NAXODEX
           </span>
         </div>
       </div>
@@ -575,19 +575,19 @@ export default function Hero() {
               HEADING
               ------------------------------------------------- */}
 
-          <h1 className="font-serif text-[3.25rem] font-bold leading-[0.98] tracking-[-0.045em] !text-[#FFFFFF] sm:text-6xl lg:text-[5.5rem]">
-            Your{" "}
-            <span className="bg-gradient-to-r from-[#f4df9b] via-[#d4af37] to-[#b88920] bg-clip-text text-transparent">
-              Treasure.
-            </span>
+        <h1 className="font-serif text-[3.25rem] font-bold leading-[0.98] tracking-[-0.045em] !text-[#FFFFFF] sm:text-6xl lg:text-[5.5rem]">
+            Trade{" "}
+           <span className="bg-gradient-to-r from-[#f4df9b] via-[#d4af37] to-[#b88920] bg-clip-text text-transparent">
+             Smarter.
+           </span>
 
-            <br />
+           <br />
 
-            Your{" "}
-            <span className="bg-gradient-to-r from-[#f4df9b] via-[#d4af37] to-[#b88920] bg-clip-text text-transparent">
-              Terms.
-            </span>
-          </h1>
+            Move With{" "}
+           <span className="bg-gradient-to-r from-[#f4df9b] via-[#d4af37] to-[#b88920] bg-clip-text text-transparent">
+             Crypto.
+           </span>
+        </h1>
 
           {/* -------------------------------------------------
               DECORATIVE LINE
@@ -609,9 +609,8 @@ export default function Hero() {
               ------------------------------------------------- */}
 
           <p className="mt-5 max-w-xl text-sm leading-6 !text-[#FFFFFF] sm:mt-6 sm:text-lg sm:leading-8">
-            Thésoros is where ancient wealth principles meet
-            modern investing. Founded in Athens, grown globally,
-            we help protect and grow what matters most—your legacy.
+              Naxodex is a modern cryptocurrency trading platform built to give you
+              the tools, markets, and experience you need to trade with confidence.
           </p>
 
           {/* -------------------------------------------------
@@ -620,17 +619,17 @@ export default function Hero() {
 
           <div className="mt-7 flex flex-col gap-3 sm:mt-8 sm:flex-row">
           <Link
-  href="/signup"
-  className="inline-flex min-h-[52px] items-center justify-center rounded-md bg-[#d4af37] px-7 py-3.5 text-base font-bold !text-[#FFFFFF] shadow-[0_0_35px_rgba(212,175,55,0.20)] transition hover:bg-[#d4af37] hover:shadow-[0_0_40px_rgba(212,175,55,0.30)]"
->
-  Open Your Account
-</Link>
+            href="/signup"
+            className="inline-flex min-h-[52px] items-center justify-center rounded-md bg-[#d4af37] px-7 py-3.5 text-base font-bold !text-[#FFFFFF] shadow-[0_0_35px_rgba(212,175,55,0.20)] transition hover:bg-[#d4af37] hover:shadow-[0_0_40px_rgba(212,175,55,0.30)]"
+          >
+            Start Trading
+          </Link>
 
             <Link
-              href="/invest"
+              href="/market-watchlist"
               className="inline-flex min-h-[52px] items-center justify-center rounded-md border border-gold/35 bg-black/20 px-7 py-3.5 text-sm font-bold !text-[#FFFFFF] backdrop-blur-md transition hover:border-gold/60 hover:bg-gold/[0.06]"
             >
-              Explore Portfolios
+              Explore Markets
             </Link>
           </div>
 
@@ -660,7 +659,7 @@ export default function Hero() {
             </svg>
 
             <span>
-              Bank-Grade Security. Global Compliance. Total Transparency.
+              Secure Trading. Powerful Tools. Global Crypto Markets.
             </span>
           </div>
         </div>

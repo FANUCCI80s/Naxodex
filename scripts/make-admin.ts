@@ -1,4 +1,3 @@
-﻿
 import "dotenv/config";
 
 import { domainToASCII } from "node:url";
@@ -11,7 +10,7 @@ import bcrypt from "bcryptjs";
 
 const ADMIN_EMAIL =
   process.env.ADMIN_EMAIL?.trim() ||
-  "adminthesoros@gmail.com";
+  "support@naxodex.com";
 
 const databaseUrl =
   process.env.DATABASE_URL;
@@ -19,7 +18,7 @@ const databaseUrl =
 if (!databaseUrl) {
   console.error("");
   console.error(
-    "❌ DATABASE_URL is missing from your .env file."
+    "? DATABASE_URL is missing from your .env file."
   );
   console.error("");
 
@@ -101,7 +100,7 @@ async function main() {
     "======================================"
   );
   console.log(
-    "       THÉSOROS ADMIN SETUP"
+    "       NAXODEX ADMIN SETUP"
   );
   console.log(
     "======================================"
@@ -192,7 +191,7 @@ async function main() {
       "======================================"
     );
     console.log(
-      "       THÉSOROS ADMIN READY"
+      "       NAXODEX ADMIN READY"
     );
     console.log(
       "======================================"
@@ -248,7 +247,7 @@ async function main() {
   const newUser =
     await prisma.user.create({
       data: {
-        firstName: "Thesoros",
+        firstName: "NAXODEX",
         lastName: "Admin",
         email: canonicalEmail,
         passwordHash,
@@ -286,7 +285,7 @@ async function main() {
     "======================================"
   );
   console.log(
-    "       THÉSOROS ADMIN CREATED"
+    "       NAXODEX ADMIN CREATED"
   );
   console.log(
     "======================================"
@@ -328,7 +327,7 @@ main()
   .catch((error) => {
     console.error("");
     console.error(
-      "❌ Failed to create/update THÉSOROS admin account:"
+      "? Failed to create/update NAXODEX admin account:"
     );
     console.error("");
     console.error(error);
@@ -340,4 +339,3 @@ main()
     await prisma.$disconnect();
     await pool.end();
   });
-

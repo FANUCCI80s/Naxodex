@@ -1,22 +1,22 @@
 import Image from "next/image";
 
-interface ThesorosLogoProps {
+interface NAXODEXLogoProps {
   className?: string;
   width?: number;
   height?: number;
   priority?: boolean;
 }
 
-export default function ThesorosLogo({
+export default function NAXODEXLogo({
   className = "",
   width = 180,
   height = 52,
   priority = false,
-}: ThesorosLogoProps) {
+}: NAXODEXLogoProps) {
   return (
     <Image
-      src="/branding/thesoros-logo.png"
-      alt="THÉSOROS"
+      src="/branding/Naxodex-logo.png"
+      alt="NAXODEX"
       width={width}
       height={height}
       priority={priority}

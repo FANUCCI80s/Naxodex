@@ -18,14 +18,14 @@ export function loginOtpEmail(
     process.env.NEXT_PUBLIC_APP_URL?.replace(/\/$/, "");
 
   const logoUrl = appUrl
-    ? `${appUrl}/branding/thesoros-logo.png`
+    ? `${appUrl}/branding/NAXODEX-logo.png`
     : "";
 
   const logoMarkup = logoUrl
     ? `
       <img
         src="${escapeHtml(logoUrl)}"
-        alt="THÉSOROS"
+        alt="NAXODEX"
         width="190"
         style="
           display:block;
@@ -50,26 +50,26 @@ export function loginOtpEmail(
           color:#d4af37;
         "
       >
-        THÉSOROS
+        NAXODEX
       </div>
     `;
 
   return {
-    subject: "Your THÉSOROS verification code",
+    subject: "Your NAXODEX verification code",
 
     text: `Hello ${firstName},
 
-Your THÉSOROS verification code is:
+Your NAXODEX verification code is:
 
 ${code}
 
 This code expires in 10 minutes.
 
-For your security, never share this code with anyone. THÉSOROS will never ask you to provide your verification code by phone, email, or message.
+For your security, never share this code with anyone. NAXODEX will never ask you to provide your verification code by phone, email, or message.
 
-If you did not attempt to sign in to your THÉSOROS account, please secure your account immediately.
+If you did not attempt to sign in to your NAXODEX account, please secure your account immediately.
 
-THÉSOROS
+NAXODEX
 
 Wealth • Legacy • Security`,
 
@@ -90,7 +90,7 @@ Wealth • Legacy • Security`,
     name="supported-color-schemes"
     content="dark"
   />
-  <title>THÉSOROS Verification Code</title>
+  <title>NAXODEX Verification Code</title>
 </head>
 
 <body
@@ -229,7 +229,7 @@ Wealth • Legacy • Security`,
                 "
               >
                 Use the verification code below to
-                securely complete your THÉSOROS sign-in.
+                securely complete your NAXODEX sign-in.
               </p>
             </td>
           </tr>
@@ -417,7 +417,7 @@ Wealth • Legacy • Security`,
                       "
                     >
                       If you did not attempt to sign in to
-                      your THÉSOROS account, please secure
+                      your NAXODEX account, please secure
                       your account and contact support if
                       necessary.
                     </p>
@@ -431,7 +431,7 @@ Wealth • Legacy • Security`,
                       "
                     >
                       Never share this verification code with
-                      anyone. THÉSOROS will never ask you to
+                      anyone. NAXODEX will never ask you to
                       provide your verification code by phone,
                       email, or message.
                     </p>
@@ -472,7 +472,7 @@ Wealth • Legacy • Security`,
                 "
               >
                 This is an automated security message from
-                THÉSOROS. Please do not reply to this email.
+                NAXODEX. Please do not reply to this email.
               </p>
             </td>
           </tr>
@@ -499,7 +499,7 @@ Wealth • Legacy • Security`,
               "
             >
               © ${new Date().getFullYear()}
-              THÉSOROS. All rights reserved.
+              NAXODEX. All rights reserved.
             </td>
           </tr>
         </table>
@@ -523,14 +523,14 @@ export function passwordResetOtpEmail(
     process.env.NEXT_PUBLIC_APP_URL?.replace(/\/$/, "");
 
   const logoUrl = appUrl
-    ? `${appUrl}/branding/thesoros-logo.png`
+    ? `${appUrl}/branding/NAXODEX-logo.png`
     : "";
 
   const logoMarkup = logoUrl
     ? `
       <img
         src="${escapeHtml(logoUrl)}"
-        alt="THÉSOROS"
+        alt="NAXODEX"
         width="190"
         style="
           display:block;
@@ -555,26 +555,26 @@ export function passwordResetOtpEmail(
           color:#d4af37;
         "
       >
-        THÉSOROS
+        NAXODEX
       </div>
     `;
 
   return {
-    subject: "Your THÉSOROS password reset code",
+    subject: "Your NAXODEX password reset code",
 
     text: `Hello ${firstName},
 
-Your THÉSOROS password reset code is:
+Your NAXODEX password reset code is:
 
 ${code}
 
 This code expires in 10 minutes.
 
-For your security, never share this code with anyone. THÉSOROS will never ask you to provide your verification code by phone, email, or message.
+For your security, never share this code with anyone. NAXODEX will never ask you to provide your verification code by phone, email, or message.
 
 If you did not request a password reset, you can safely ignore this email. Your password will not be changed unless the reset process is completed.
 
-THÉSOROS
+NAXODEX
 
 Wealth • Legacy • Security`,
 
@@ -595,7 +595,7 @@ Wealth • Legacy • Security`,
     name="supported-color-schemes"
     content="dark"
   />
-  <title>THÉSOROS Password Reset</title>
+  <title>NAXODEX Password Reset</title>
 </head>
 
 <body
@@ -735,7 +735,7 @@ Wealth • Legacy • Security`,
               >
                 Use the password reset code below to
                 securely create a new password for your
-                THÉSOROS account.
+                NAXODEX account.
               </p>
             </td>
           </tr>
@@ -937,7 +937,7 @@ Wealth • Legacy • Security`,
                       "
                     >
                       Never share this verification code with
-                      anyone. THÉSOROS will never ask you to
+                      anyone. NAXODEX will never ask you to
                       provide your verification code by phone,
                       email, or message.
                     </p>
@@ -978,7 +978,7 @@ Wealth • Legacy • Security`,
                 "
               >
                 This is an automated security message from
-                THÉSOROS. Please do not reply to this email.
+                NAXODEX. Please do not reply to this email.
               </p>
             </td>
           </tr>
@@ -1005,7 +1005,7 @@ Wealth • Legacy • Security`,
               "
             >
               © ${new Date().getFullYear()}
-              THÉSOROS. All rights reserved.
+              NAXODEX. All rights reserved.
             </td>
           </tr>
         </table>

@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { prisma } from "@/lib/prisma";
 
 const DEFAULT_SETTINGS = {
-platformName: "Thesoros",
+platformName: "NAXODEX",
 logoUrl: null,
 primaryColor: "#E8C766",
 secondaryColor: "#FAF7F0",

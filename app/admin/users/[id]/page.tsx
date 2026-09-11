@@ -390,7 +390,7 @@ export default async function AdminUserDetailsPage({
         </section>
 
         <p className="mt-8 text-center text-xs !text-[#FFFFFF]">
-          Thesoros • Admin • User Details
+          NAXODEX • Admin • User Details
         </p>
       </div>
     </main>

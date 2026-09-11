@@ -4,11 +4,11 @@ import { useState } from "react";
 
 const faqs = [
   {
-    question: "What is Thesoros?",
+    question: "What is NAXODEX?",
     answer: (
       <>
         <p>
-          Thesoros is a premium digital wealth-management platform designed to
+          NAXODEX is a premium digital wealth-management platform designed to
           help individuals build, manage, protect, and preserve their wealth
           through structured investment opportunities, intelligent portfolio
           management, financial planning, and long-term wealth strategies.
@@ -53,7 +53,7 @@ const faqs = [
     answer: (
       <>
         <p>
-          Thesoros provides access to a range of global financial markets,
+          NAXODEX provides access to a range of global financial markets,
           allowing you to monitor and explore market opportunities across
           multiple asset classes. Available markets and assets are displayed
           on the <strong>Markets</strong> page and may include cryptocurrencies,
@@ -72,7 +72,7 @@ const faqs = [
     answer: (
       <>
         <p>
-          To deposit funds, log in to your THÉSOROS account and navigate to the
+          To deposit funds, log in to your NAXODEX account and navigate to the
           Deposit section. Select your preferred deposit method, choose the
           available cryptocurrency and network, and enter the amount you wish
           to deposit. Follow the provided payment instructions and submit the
@@ -100,7 +100,7 @@ const faqs = [
 
         <p className="mt-4">
           You can monitor the status of your deposit directly from your
-          THÉSOROS account. Your balance will be updated once the deposit has
+          NAXODEX account. Your balance will be updated once the deposit has
           been successfully verified and approved.
         </p>
       </>
@@ -111,7 +111,7 @@ const faqs = [
     answer: (
       <>
         <p>
-          To make a <strong>withdrawal</strong>, log in to your THÉSOROS account
+          To make a <strong>withdrawal</strong>, log in to your NAXODEX account
           and navigate to the Withdrawal section. Enter the amount you wish to
           withdraw, select the available cryptocurrency and network, and
           provide the destination wallet address.
@@ -131,7 +131,7 @@ const faqs = [
     answer: (
       <>
         <p>
-          Yes. THÉSOROS is designed with multiple security and verification
+          Yes. NAXODEX is designed with multiple security and verification
           measures to help protect your account, personal information, and
           transactions. We apply appropriate safeguards throughout the
           platform and continuously work to maintain a secure environment for
@@ -186,7 +186,7 @@ export default function FAQ() {
           </h2>
 
           <p className="mt-5 text-base leading-7 !text-[#FFFFFF] sm:text-lg">
-            Find answers to some of the most common questions about THÉSOROS
+            Find answers to some of the most common questions about NAXODEX
             Portfolio.
           </p>
         </div>

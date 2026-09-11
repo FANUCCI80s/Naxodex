@@ -341,14 +341,14 @@ export default function AdminDepositSettingsPage() {
               className="flex items-center gap-3"
             >
               <img
-                src="/branding/thesoros-logo.png"
-                alt="THÉSOROS"
+                src="/branding/NAXODEX-logo.png"
+                alt="NAXODEX"
                 className="h-9 w-auto object-contain"
               />
 
               <div>
                 <p className="font-bold">
-                  Thesoros
+                  NAXODEX
                 </p>
 
                 <p className="text-xs !text-[#FFFFFF]">

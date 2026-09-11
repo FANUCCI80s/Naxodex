@@ -99,7 +99,7 @@ export default function SignupPage() {
       );
 
       setError(
-        "Unable to connect to THÉSOROS. Please check your connection and try again."
+        "Unable to connect to NAXODEX. Please check your connection and try again."
       );
     } finally {
       setLoading(false);
@@ -164,8 +164,8 @@ export default function SignupPage() {
             {/* Logo */}
             <div className="flex justify-center xl:justify-start">
               <Image
-                src="/branding/thesoros-logo.png"
-                alt="THÉSOROS"
+                src="/branding/NAXODEX-logo.png"
+                alt="NAXODEX"
                 width={220}
                 height={64}
                 priority
@@ -182,11 +182,11 @@ export default function SignupPage() {
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight !text-[#FFFFFF] xl:text-7xl">
                 Build your
                 <br />
-                financial thésoros.
+                financial NAXODEX.
               </h1>
 
               <p className="mt-7 max-w-lg text-base leading-7 !text-[#FFFFFF]">
-                Create your THÉSOROS account and get access
+                Create your NAXODEX account and get access
                 to a modern platform designed for managing
                 your investments across global markets.
               </p>
@@ -212,7 +212,7 @@ export default function SignupPage() {
             </div>
 
             <p className="text-sm !text-[#FFFFFF]">
-              © {new Date().getFullYear()} THÉSOROS
+              © {new Date().getFullYear()} NAXODEX
             </p>
           </div>
         </section>
@@ -226,8 +226,8 @@ export default function SignupPage() {
             {/* Mobile centered logo */}
             <div className="mb-10 flex justify-center lg:hidden">
               <Image
-                src="/branding/thesoros-logo.png"
-                alt="THÉSOROS"
+                src="/branding/NAXODEX-logo.png"
+                alt="NAXODEX"
                 width={210}
                 height={62}
                 priority
@@ -248,7 +248,7 @@ export default function SignupPage() {
 
                 <p className="mt-3 text-sm leading-6 !text-[#FFFFFF]">
                   Create your account to start using
-                  THÉSOROS.
+                  NAXODEX.
                 </p>
               </div>
 

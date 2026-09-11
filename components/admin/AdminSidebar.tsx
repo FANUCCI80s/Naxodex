@@ -120,8 +120,8 @@ export default function AdminSidebar() {
           >
             <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-gold/30 bg-gold/10">
               <Image
-                src="/branding/thesoros-logo.png"
-                alt="THÉSOROS"
+                src="/branding/NAXODEX-logo.png"
+                alt="NAXODEX"
                 width={40}
                 height={40}
                 className="h-8 w-auto object-contain"
@@ -130,7 +130,7 @@ export default function AdminSidebar() {
 
             <div>
               <p className="font-bold tracking-tight !text-[#FFFFFF]">
-                Thesoros
+                NAXODEX
               </p>
 
               <p className="mt-0.5 text-xs !text-[#FFFFFF]">
@@ -238,8 +238,8 @@ export default function AdminSidebar() {
             className="flex items-center gap-3"
           >
             <Image
-              src="/branding/thesoros-logo.png"
-              alt="THÉSOROS"
+              src="/branding/NAXODEX-logo.png"
+              alt="NAXODEX"
               width={40}
               height={40}
               className="h-9 w-auto object-contain"
@@ -247,7 +247,7 @@ export default function AdminSidebar() {
 
             <div>
               <p className="text-sm font-bold !text-[#FFFFFF]">
-                Thesoros
+                NAXODEX
               </p>
 
               <p className="text-[10px] !text-[#FFFFFF]">

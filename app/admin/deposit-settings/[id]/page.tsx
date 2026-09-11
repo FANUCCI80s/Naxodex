@@ -43,12 +43,12 @@ export default async function AdminDepositReviewPage({
           <div className="border-b border-white/10 p-6">
             <Link href="/admin" className="flex items-center gap-3">
               <div className="flex h-11 w-11 items-center justify-center rounded-xl border border-gold/30 bg-gold/10">
-                <img src="/branding/thesoros-logo.png" alt="THÉSOROS" className="h-8 w-auto object-contain" />
+                <img src="/branding/NAXODEX-logo.png" alt="NAXODEX" className="h-8 w-auto object-contain" />
               </div>
 
               <div>
                 <p className="font-bold tracking-tight">
-                  Thesoros
+                  NAXODEX
                 </p>
 
                 <p className="text-xs !text-[#FFFFFF]">
@@ -129,11 +129,11 @@ export default async function AdminDepositReviewPage({
                 className="flex items-center gap-3"
               >
                 <div className="flex h-9 w-9 items-center justify-center rounded-lg border border-gold/30 bg-gold/10">
-                  <img src="/branding/thesoros-logo.png" alt="THÉSOROS" className="h-8 w-auto object-contain" />
+                  <img src="/branding/NAXODEX-logo.png" alt="NAXODEX" className="h-8 w-auto object-contain" />
                 </div>
 
                 <span className="font-bold">
-                  Thesoros
+                  NAXODEX
                 </span>
               </Link>
 

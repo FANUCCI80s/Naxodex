@@ -21,7 +21,7 @@ export default async function KycStatusPage() {
           <div className="mb-10 flex items-center justify-between">
             <div>
               <p className="text-xl font-bold tracking-tight">
-                Thesoros
+                NAXODEX
               </p>
 
               <p className="mt-1 text-sm !text-[#FFFFFF]">
@@ -76,7 +76,7 @@ export default async function KycStatusPage() {
 
           <div>
             <p className="text-xl font-bold tracking-tight">
-              Thesoros
+              NAXODEX
             </p>
 
             <p className="mt-1 text-sm !text-[#FFFFFF]">
@@ -279,7 +279,7 @@ export default async function KycStatusPage() {
 
             <p className="mt-4 max-w-2xl text-sm leading-7 !text-[#FFFFFF]">
               Complete your KYC verification to help us verify
-              your identity and protect your Thesoros account.
+              your identity and protect your NAXODEX account.
             </p>
 
             <Link

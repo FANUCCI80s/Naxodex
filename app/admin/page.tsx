@@ -90,8 +90,8 @@ export default async function AdminDashboardPage() {
             >
               <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-gold/30 bg-gold/10">
                 <img
-                  src="/branding/thesoros-logo.png"
-                  alt="THÉSOROS"
+                  src="/branding/NAXODEX-logo.png"
+                  alt="NAXODEX"
                   className="h-8 w-auto object-contain"
                 />
               </div>
@@ -187,7 +187,7 @@ export default async function AdminDashboardPage() {
                 </h1>
 
                 <p className="mt-1 text-sm !text-[#FFFFFF]">
-                  Manage Thesoros accounts and verification requests.
+                  Manage NAXODEX accounts and verification requests.
                 </p>
               </div>
 

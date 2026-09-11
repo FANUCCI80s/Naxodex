@@ -71,7 +71,7 @@ export async function POST(request: Request) {
      * the account does not exist or is not eligible.
      *
      * This prevents the endpoint from revealing whether
-     * an email address belongs to a THÉSOROS account.
+     * an email address belongs to a NAXODEX account.
      */
     if (
       !user ||

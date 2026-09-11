@@ -1,4 +1,3 @@
-
 import "dotenv/config";
 import { PrismaClient } from "@prisma/client";
 import { PrismaPg } from "@prisma/adapter-pg";
@@ -39,7 +38,7 @@ function question(prompt) {
 async function main() {
   console.log("");
   console.log("======================================");
-  console.log("       THÉSOROS ADMIN SETUP");
+  console.log("       NAXODEX ADMIN SETUP");
   console.log("======================================");
   console.log("");
 
@@ -146,7 +145,7 @@ async function main() {
 
     console.log("");
     console.log("======================================");
-    console.log("       THÉSOROS ADMIN READY");
+    console.log("       NAXODEX ADMIN READY");
     console.log("======================================");
     console.log("");
     console.log(
@@ -187,7 +186,7 @@ async function main() {
 
   console.log("");
   console.log("======================================");
-  console.log("       THÉSOROS ADMIN CREATED");
+  console.log("       NAXODEX ADMIN CREATED");
   console.log("======================================");
   console.log("");
   console.log(
@@ -220,4 +219,3 @@ main()
 
     await pool.end();
   });
-

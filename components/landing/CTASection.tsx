@@ -9,7 +9,7 @@ export default function CTASection() {
 
           <div className="relative">
             <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold">
-              Thesoros
+              NAXODEX
             </p>
 
             <h2 className="mx-auto mt-5 max-w-3xl text-4xl font-bold tracking-tight !text-[#FFFFFF] sm:text-5xl">
@@ -17,7 +17,7 @@ export default function CTASection() {
             </h2>
 
             <p className="mx-auto mt-5 max-w-xl leading-7 !text-[#FFFFFF]">
-              Create your account and experience the Thesoros platform.
+              Create your account and experience the NAXODEX platform.
             </p>
 
             <div className="mt-9">

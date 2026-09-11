@@ -2,7 +2,7 @@ const steps = [
   {
     number: "01",
     title: "Create your account",
-    text: "Register your Thesoros account and complete the required account verification.",
+    text: "Register your NAXODEX account and complete the required account verification.",
   },
   {
     number: "02",
@@ -35,7 +35,7 @@ export default function HowItWorks() {
           </h2>
 
           <p className="mx-auto mt-5 max-w-xl leading-7 !text-[#FFFFFF]">
-            Everything you need to get started is organized inside your THÉSOROS
+            Everything you need to get started is organized inside your NAXODEX
             Portfolio account.
           </p>
         </div>

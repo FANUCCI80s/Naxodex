@@ -144,7 +144,7 @@ export default function KycReviewPage() {
             </h1>
 
             <p className="mx-auto mt-4 max-w-md text-sm leading-6 !text-[#FFFFFF]">
-              Your Thesoros account has successfully
+              Your NAXODEX account has successfully
               completed identity verification.
             </p>
 
@@ -176,14 +176,14 @@ export default function KycReviewPage() {
           >
             <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-xl border border-gold/30 bg-gold/10">
               <img
-                src="/branding/thesoros-logo.png"
-                alt="THÉSOROS"
+                src="/branding/NAXODEX-logo.png"
+                alt="NAXODEX"
                 className="h-8 w-auto object-contain"
               />
             </div>
 
             <span className="text-xl font-bold tracking-tight">
-              Thesoros
+              NAXODEX
             </span>
           </button>
 

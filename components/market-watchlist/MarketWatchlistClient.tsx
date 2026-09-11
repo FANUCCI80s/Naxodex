@@ -1072,7 +1072,7 @@ export default function MarketWatchlistClient() {
       </section>
 
       <p className="text-center text-xs !text-[#FFFFFF]">
-        THÉSOROS • Market Watchlist
+        NAXODEX • Market Watchlist
       </p>
     </div>
   );

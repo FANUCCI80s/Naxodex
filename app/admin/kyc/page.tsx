@@ -414,7 +414,7 @@ export default async function AdminKycPage() {
         </section>
 
         <p className="mt-8 text-center text-xs !text-[#FFFFFF]">
-          Thesoros <span aria-hidden="true">•</span> Admin{" "}
+          NAXODEX <span aria-hidden="true">•</span> Admin{" "}
           <span aria-hidden="true">•</span> KYC Management
         </p>
       </div>

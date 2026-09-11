@@ -13,7 +13,7 @@ export function getAdminMessageEmail({
   logoUrl,
 }: AdminMessageEmailOptions) {
   const emailSubject =
-    subject || "You have a new message from THÉSOROS";
+    subject || "You have a new message from NAXODEX";
 
   const safeFirstName = escapeHtml(firstName);
   const safeSubject = escapeHtml(emailSubject);
@@ -37,7 +37,7 @@ export function getAdminMessageEmail({
     ? `
       <img
         src="${safeLogoUrl}"
-        alt="THÉSOROS"
+        alt="NAXODEX"
         width="190"
         style="
           display:block;
@@ -61,7 +61,7 @@ export function getAdminMessageEmail({
           color:#d4af37;
         "
       >
-        THÉSOROS
+        NAXODEX
       </div>
     `;
 
@@ -333,7 +333,7 @@ export function getAdminMessageEmail({
                 "
               >
                 This message was also delivered to your
-                THÉSOROS notification center. You can sign in
+                NAXODEX notification center. You can sign in
                 to your account to view your messages and
                 account activity.
               </p>
@@ -466,7 +466,7 @@ export function getAdminMessageEmail({
                         color:#777777;
                       "
                     >
-                      THÉSOROS will never ask you to provide
+                      NAXODEX will never ask you to provide
                       your password, verification codes, or
                       private wallet credentials by email.
                       If you did not expect this message,
@@ -514,7 +514,7 @@ export function getAdminMessageEmail({
                   color:#444444;
                 "
               >
-                This is an automated message from THÉSOROS.
+                This is an automated message from NAXODEX.
                 Please do not reply to this email.
               </p>
 
@@ -546,7 +546,7 @@ export function getAdminMessageEmail({
               "
             >
               © ${new Date().getFullYear()}
-              THÉSOROS. All rights reserved.
+              NAXODEX. All rights reserved.
             </td>
           </tr>
         </table>
@@ -559,11 +559,11 @@ export function getAdminMessageEmail({
 `;
 
   const text = `
-THÉSOROS — NEW ACCOUNT MESSAGE
+NAXODEX — NEW ACCOUNT MESSAGE
 
 Hello ${firstName},
 
-You have received a new message from THÉSOROS.
+You have received a new message from NAXODEX.
 
 ${emailSubject}
 
@@ -573,7 +573,7 @@ ${message}
 
 --------------------------------------------------
 
-This message was also delivered to your THÉSOROS
+This message was also delivered to your NAXODEX
 notification center.
 
 You can sign in to your account to view your messages
@@ -588,16 +588,16 @@ you leave tomorrow.
 
 SECURITY NOTICE
 
-THÉSOROS will never ask you to provide your password,
+NAXODEX will never ask you to provide your password,
 verification codes, or private wallet credentials by email.
 
 If you did not expect this message, please contact support
 through your account.
 
-This is an automated message from THÉSOROS.
+This is an automated message from NAXODEX.
 Please do not reply to this email.
 
-© ${new Date().getFullYear()} THÉSOROS. All rights reserved.
+© ${new Date().getFullYear()} NAXODEX. All rights reserved.
 `;
 
   return {

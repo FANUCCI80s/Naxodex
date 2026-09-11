@@ -2,7 +2,7 @@
 
 :root {
   /* =========================================================
-     THÉSOROS — CLASSIC GOLD / DARK LUXURY
+     NAXODEX — CLASSIC GOLD / DARK LUXURY
      ========================================================= */
 
   /* ===== Brand Gold ===== */
@@ -161,7 +161,7 @@
 
 /*
  * Deliberately no prefers-color-scheme override here.
- * THÉSOROS is always dark.
+ * NAXODEX is always dark.
  */
 
 html {
@@ -311,10 +311,10 @@ button {
 }
 
 /* =========================================================
-   THÉSOROS CARD UTILITIES
+   NAXODEX CARD UTILITIES
    ========================================================= */
 
-.thesoros-card {
+.NAXODEX-card {
   background:
     linear-gradient(
       145deg,
@@ -330,11 +330,11 @@ button {
     inset 0 1px 0 rgba(255, 255, 255, 0.025);
 }
 
-.thesoros-card:hover {
+.NAXODEX-card:hover {
   border-color: var(--border-gold);
 }
 
-.thesoros-card-gold {
+.NAXODEX-card-gold {
   background:
     linear-gradient(
       145deg,
@@ -354,11 +354,11 @@ button {
    GOLD TYPOGRAPHY
    ========================================================= */
 
-.thesoros-gold {
+.NAXODEX-gold {
   color: var(--gold);
 }
 
-.thesoros-gold-gradient {
+.NAXODEX-gold-gradient {
   background: var(--gradient-gold);
   background-clip: text;
   -webkit-background-clip: text;
@@ -369,7 +369,7 @@ button {
    GOLD BUTTON
    ========================================================= */
 
-.thesoros-button {
+.NAXODEX-button {
   background: var(--gold);
   color: #050505;
 
@@ -381,14 +381,14 @@ button {
     box-shadow 0.15s ease;
 }
 
-.thesoros-button:hover {
+.NAXODEX-button:hover {
   background: var(--gold-light);
 
   box-shadow:
     0 8px 30px rgba(212, 175, 55, 0.18);
 }
 
-.thesoros-button:active {
+.NAXODEX-button:active {
   transform: translateY(1px);
 }
 
@@ -396,7 +396,7 @@ button {
    GOLD OUTLINE BUTTON
    ========================================================= */
 
-.thesoros-button-outline {
+.NAXODEX-button-outline {
   background: var(--charcoal);
 
   color: var(--white);
@@ -409,7 +409,7 @@ button {
     color 0.15s ease;
 }
 
-.thesoros-button-outline:hover {
+.NAXODEX-button-outline:hover {
   background: rgba(212, 175, 55, 0.06);
   border-color: var(--gold);
   color: var(--gold-light);
@@ -419,7 +419,7 @@ button {
    GOLD DIVIDER
    ========================================================= */
 
-.thesoros-divider {
+.NAXODEX-divider {
   height: 1px;
 
   background:
@@ -435,7 +435,7 @@ button {
    DARK PAGE UTILITY
    ========================================================= */
 
-.thesoros-page {
+.NAXODEX-page {
   min-height: 100vh;
 
   background:
@@ -449,7 +449,7 @@ button {
    DARK SECTION UTILITY
    ========================================================= */
 
-.thesoros-section {
+.NAXODEX-section {
   background: var(--black-soft);
   color: var(--white);
 }

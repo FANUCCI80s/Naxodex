@@ -21,7 +21,7 @@ export async function POST(request: Request) {
             userId: user.id,
             type: "LOGOUT",
             description:
-              "You logged out of your Thesoros account.",
+              "You logged out of your NAXODEX account.",
             ipAddress,
             userAgent,
           },

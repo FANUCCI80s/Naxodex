@@ -21,10 +21,10 @@ const features = [
   },
 ];
 
-export default function WhyThesoros() {
+export default function WhyNAXODEX() {
   return (
     <section
-      id="why-thésoros"
+      id="why-NAXODEX"
       className="relative overflow-hidden border-t border-white/[0.06] bg-[#050505] py-28"
     >
       {/* Background image */}
@@ -50,7 +50,7 @@ export default function WhyThesoros() {
           {/* Introduction */}
           <div>
             <p className="text-xs font-bold uppercase tracking-[0.25em] text-gold">
-              Why Thesoros
+              Why NAXODEX
             </p>
 
             <h2 className="mt-5 text-4xl font-bold tracking-tight !text-[#FFFFFF] sm:text-5xl">
@@ -58,7 +58,7 @@ export default function WhyThesoros() {
             </h2>
 
             <p className="mt-6 max-w-lg leading-7 !text-[#FFFFFF]">
-              From account onboarding to market activity, Thesoros is
+              From account onboarding to market activity, NAXODEX is
               designed to make the experience straightforward without
               sacrificing the tools you need.
             </p>

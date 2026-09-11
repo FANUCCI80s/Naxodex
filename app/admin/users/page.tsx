@@ -206,7 +206,7 @@ export default function AdminUsersPage() {
             </h1>
 
             <p className="mt-2 max-w-2xl text-sm leading-6 !text-[#FFFFFF]">
-              Manage registered Thesoros users,
+              Manage registered NAXODEX users,
               account status, KYC status, and balances.
             </p>
           </div>
@@ -578,7 +578,7 @@ export default function AdminUsersPage() {
         </section>
 
         <p className="mt-8 text-center text-xs !text-[#FFFFFF]">
-          Thesoros · Admin · Users
+          NAXODEX · Admin · Users
         </p>
       </div>
     </main>

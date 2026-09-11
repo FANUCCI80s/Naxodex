@@ -124,8 +124,8 @@ export default function DashboardNav() {
             className="inline-flex items-center"
           >
             <img
-              src="/branding/thesoros-logo.png"
-              alt="THÉSOROS"
+              src="/branding/NAXODEX-logo.png"
+              alt="NAXODEX"
               className="block h-10 w-auto max-w-[190px] object-contain"
             />
           </Link>
@@ -261,8 +261,8 @@ export default function DashboardNav() {
             className="inline-flex items-center"
           >
             <img
-              src="/branding/thesoros-logo.png"
-              alt="THÉSOROS"
+              src="/branding/NAXODEX-logo.png"
+              alt="NAXODEX"
               className="block h-10 w-auto max-w-[190px] object-contain"
             />
           </Link>

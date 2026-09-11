@@ -318,7 +318,7 @@ export async function POST(
       "======================================"
     );
     console.error(
-      "THÉSOROS LOGIN ERROR"
+      "NAXODEX LOGIN ERROR"
     );
     console.error(
       "======================================"

@@ -27,7 +27,7 @@ const prisma = new PrismaClient({
 });
 
 async function main() {
-  const email = "adminthesoros@gmail.com";
+  const email = process.env.ADMIN_EMAIL;
 
   const user = await prisma.user.findUnique({
     where: {
@@ -59,7 +59,7 @@ async function main() {
 
   console.log("");
   console.log("======================================");
-  console.log("       THÉSOROS ADMIN CHECK");
+  console.log("       NAXODEX ADMIN CHECK");
   console.log("======================================");
   console.log("");
 

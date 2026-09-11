@@ -368,7 +368,7 @@ export default function WithdrawalSettingsPage() {
 
                 <p className="mt-1 max-w-2xl text-sm !text-[#FFFFFF]">
                   Configure the withdrawal methods available
-                  to Thesoros users.
+                  to NAXODEX users.
                 </p>
               </div>
 

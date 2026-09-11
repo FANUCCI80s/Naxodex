@@ -17,7 +17,7 @@ const [message, setMessage] = useState("");
 
 useEffect(() => {
 const storedEmail = sessionStorage.getItem(
-"ThesorosLoginEmail"
+"NAXODEXLoginEmail"
 );
 
 if (!storedEmail) {
@@ -69,7 +69,7 @@ try {
   }
 
   
-sessionStorage.removeItem("ThesorosLoginEmail");
+sessionStorage.removeItem("NAXODEXLoginEmail");
 
 router.replace(data.redirectTo || "/kyc");
 
@@ -134,7 +134,7 @@ EP
 </div>
 
           <span className="text-xl font-bold">
-            Thesoros
+            NAXODEX
           </span>
         </Link>
 

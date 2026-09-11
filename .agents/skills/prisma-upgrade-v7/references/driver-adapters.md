@@ -22,7 +22,7 @@ MongoDB should not follow this path. There is no published MongoDB `@prisma/adap
 | Prisma Postgres (Node.js) | `@prisma/adapter-pg` | `pg` |
 | Prisma Postgres (edge/serverless) | `@prisma/adapter-ppg` | `@prisma/ppg` |
 | SQL Server | `@prisma/adapter-mssql` | `mssql` |
-| Neon | `@prisma/adapter-neon` | `@neondatabase/serverless` |
+| Neon | `@prisma/adapter-neon` | `` |
 | PlanetScale | `@prisma/adapter-planetscale` | `@planetscale/database` |
 | Turso/libSQL | `@prisma/adapter-libsql` | `@libsql/client` |
 | D1 (Cloudflare) | `@prisma/adapter-d1` | Cloudflare D1 |

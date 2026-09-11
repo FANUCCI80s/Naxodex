@@ -74,7 +74,7 @@ export default function LoginPage() {
       );
     } catch {
       setError(
-        "Unable to connect to THÉSOROS. Please try again."
+        "Unable to connect to NAXODEX. Please try again."
       );
     } finally {
       setLoading(false);
@@ -128,7 +128,7 @@ export default function LoginPage() {
       );
     } catch {
       setError(
-        "Unable to connect to THÉSOROS. Please try again."
+        "Unable to connect to NAXODEX. Please try again."
       );
     } finally {
       setLoading(false);
@@ -170,7 +170,7 @@ export default function LoginPage() {
       );
     } catch {
       setError(
-        "Unable to connect to THÉSOROS. Please try again."
+        "Unable to connect to NAXODEX. Please try again."
       );
     } finally {
       setResending(false);
@@ -227,7 +227,7 @@ export default function LoginPage() {
       );
     } catch {
       setError(
-        "Unable to connect to THÉSOROS. Please try again."
+        "Unable to connect to NAXODEX. Please try again."
       );
     } finally {
       setLoading(false);
@@ -287,7 +287,7 @@ export default function LoginPage() {
       );
     } catch {
       setError(
-        "Unable to connect to THÉSOROS. Please try again."
+        "Unable to connect to NAXODEX. Please try again."
       );
     } finally {
       setResending(false);
@@ -362,7 +362,7 @@ export default function LoginPage() {
       );
     } catch {
       setError(
-        "Unable to connect to THÉSOROS. Please try again."
+        "Unable to connect to NAXODEX. Please try again."
       );
     } finally {
       setLoading(false);
@@ -431,8 +431,8 @@ export default function LoginPage() {
             {/* Brand */}
             <div className="flex justify-center xl:justify-start">
               <Image
-                src="/branding/thesoros-logo.png"
-                alt="THÉSOROS"
+                src="/branding/NAXODEX-logo.png"
+                alt="NAXODEX"
                 width={220}
                 height={64}
                 priority
@@ -449,11 +449,11 @@ export default function LoginPage() {
               <h1 className="text-5xl font-bold leading-[1.05] tracking-tight !text-[#FFFFFF] xl:text-7xl">
                 Your portfolio.
                 <br />
-                Your thésoros.
+                Your NAXODEX.
               </h1>
 
               <p className="mt-7 max-w-lg text-base leading-7 !text-[#FFFFFF]">
-                Access your THÉSOROS account and manage
+                Access your NAXODEX account and manage
                 your investments across crypto, forex, and
                 global markets from one secure platform.
               </p>
@@ -492,7 +492,7 @@ export default function LoginPage() {
             </div>
 
             <p className="text-sm !text-[#FFFFFF]">
-              © {new Date().getFullYear()} THÉSOROS
+              © {new Date().getFullYear()} NAXODEX
             </p>
           </div>
         </section>
@@ -506,8 +506,8 @@ export default function LoginPage() {
             {/* Mobile centered logo */}
             <div className="mb-10 flex justify-center lg:hidden">
               <Image
-                src="/branding/thesoros-logo.png"
-                alt="THÉSOROS"
+                src="/branding/NAXODEX-logo.png"
+                alt="NAXODEX"
                 width={210}
                 height={62}
                 priority
@@ -529,7 +529,7 @@ export default function LoginPage() {
                     </h2>
 
                     <p className="mt-3 text-sm leading-6 !text-[#FFFFFF]">
-                      Sign in to continue to your THÉSOROS
+                      Sign in to continue to your NAXODEX
                       account.
                     </p>
                   </div>
@@ -736,7 +736,7 @@ export default function LoginPage() {
 
                     <p className="mt-3 text-sm leading-6 !text-[#FFFFFF]">
                       Enter the email address associated
-                      with your THÉSOROS account.
+                      with your NAXODEX account.
                     </p>
                   </div>
 
@@ -907,7 +907,7 @@ export default function LoginPage() {
 
                     <p className="mt-3 text-sm leading-6 !text-[#FFFFFF]">
                       Choose a new password for your
-                      THÉSOROS account.
+                      NAXODEX account.
                     </p>
                   </div>
 

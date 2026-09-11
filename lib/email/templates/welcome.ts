@@ -10,19 +10,19 @@ export function getWelcomeEmail({
   loginUrl,
   logoUrl,
 }: WelcomeEmailOptions) {
-  const subject = "Welcome to THÉSOROS";
+  const subject = "Welcome to NAXODEX";
 
   const safeFirstName = escapeHtml(firstName);
   const safeLoginUrl = escapeHtml(loginUrl);
 
   /*
    * Email clients cannot reliably load local paths such as:
-   * /branding/thesoros-logo.png
+   * /branding/NAXODEX-logo.png
    *
    * Use a complete public URL when sending the email.
    *
    * Example:
-   * https://your-domain.com/branding/thesoros-logo.png
+   * https://your-domain.com/branding/NAXODEX-logo.png
    *
    * You can also pass logoUrl directly when calling this function.
    */
@@ -34,7 +34,7 @@ export function getWelcomeEmail({
     ? `
       <img
         src="${safeLogoUrl}"
-        alt="THÉSOROS"
+        alt="NAXODEX"
         width="190"
         style="
           display:block;
@@ -58,7 +58,7 @@ export function getWelcomeEmail({
           color:#d4af37;
         "
       >
-        THÉSOROS
+        NAXODEX
       </div>
     `;
 
@@ -74,7 +74,7 @@ export function getWelcomeEmail({
   <meta name="color-scheme" content="dark" />
   <meta name="supported-color-schemes" content="dark" />
 
-  <title>Welcome to THÉSOROS</title>
+  <title>Welcome to NAXODEX</title>
 </head>
 
 <body
@@ -213,7 +213,7 @@ export function getWelcomeEmail({
               >
                 Welcome to<br />
                 <span style="color:#d4af37;">
-                  THÉSOROS.
+                  NAXODEX.
                 </span>
               </h1>
 
@@ -236,7 +236,7 @@ export function getWelcomeEmail({
                   color:#a8a8a8;
                 "
               >
-                Welcome to THÉSOROS. Your account has been
+                Welcome to NAXODEX. Your account has been
                 successfully created, giving you access to a wealth
                 experience built around thoughtful investing,
                 long-term planning, and protecting what matters most.
@@ -251,7 +251,7 @@ export function getWelcomeEmail({
                 "
               >
                 Your next step is simple. Sign in to your account
-                and begin your THÉSOROS experience.
+                and begin your NAXODEX experience.
               </p>
 
             </td>
@@ -296,7 +296,7 @@ export function getWelcomeEmail({
                         text-transform:uppercase;
                       "
                     >
-                      Enter THÉSOROS
+                      Enter NAXODEX
                     </a>
                   </td>
                 </tr>
@@ -484,7 +484,7 @@ export function getWelcomeEmail({
                   color:#444444;
                 "
               >
-                This is an automated message from THÉSOROS.
+                This is an automated message from NAXODEX.
                 Please do not reply to this email.
               </p>
 
@@ -518,7 +518,7 @@ export function getWelcomeEmail({
               "
             >
               © ${new Date().getFullYear()}
-              THÉSOROS. All rights reserved.
+              NAXODEX. All rights reserved.
             </td>
           </tr>
         </table>
@@ -531,18 +531,18 @@ export function getWelcomeEmail({
 `;
 
   const text = `
-WELCOME TO THÉSOROS
+WELCOME TO NAXODEX
 
 Hello ${firstName},
 
-Welcome to THÉSOROS.
+Welcome to NAXODEX.
 
 Your account has been successfully created, giving you access
 to a wealth experience built around thoughtful investing,
 long-term planning, and protecting what matters most.
 
 Your next step is simple. Sign in to your account and begin
-your THÉSOROS experience:
+your NAXODEX experience:
 
 ${loginUrl}
 
@@ -558,10 +558,10 @@ If you did not create this account, please contact our support
 team immediately. Never share your password or verification
 codes with anyone.
 
-This is an automated message from THÉSOROS.
+This is an automated message from NAXODEX.
 Please do not reply to this email.
 
-© ${new Date().getFullYear()} THÉSOROS. All rights reserved.
+© ${new Date().getFullYear()} NAXODEX. All rights reserved.
 `;
 
   return {

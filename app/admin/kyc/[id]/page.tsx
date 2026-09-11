@@ -668,7 +668,7 @@ export default function AdminKycReviewPage() {
         )}
 
         <p className="mt-10 pb-8 text-center text-xs !text-[#FFFFFF]">
-          Thesoros • Admin • KYC Review
+          NAXODEX • Admin • KYC Review
         </p>
       </div>
     </main>
