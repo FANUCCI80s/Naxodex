@@ -39,7 +39,7 @@ export default function FinalCta() {
 
           <div className="relative">
             <img
-              src="/branding/NAXODEX-logo.png"
+              src="/branding/NAXODEX-LOGO.png"
               alt="NAXODEX"
               className="mx-auto h-9 w-auto object-contain"
             />

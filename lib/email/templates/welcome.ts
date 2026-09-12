@@ -17,12 +17,12 @@ export function getWelcomeEmail({
 
   /*
    * Email clients cannot reliably load local paths such as:
-   * /branding/NAXODEX-logo.png
+   * /branding/NAXODEX-LOGO.png
    *
    * Use a complete public URL when sending the email.
    *
    * Example:
-   * https://your-domain.com/branding/NAXODEX-logo.png
+   * https://your-domain.com/branding/NAXODEX-LOGO.png
    *
    * You can also pass logoUrl directly when calling this function.
    */

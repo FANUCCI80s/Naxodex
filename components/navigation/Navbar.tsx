@@ -13,7 +13,7 @@ return ( <header className="border-b border-white/[0.06] bg-[#050505]/90 backdro
        className="flex items-center"
        aria-label="NAXODEX home"
      > <Image
-         src="/branding/NAXODEX-logo.png"
+         src="/branding/NAXODEX-LOGO.png"
          alt="NAXODEX"
          width={200}
          height={58}

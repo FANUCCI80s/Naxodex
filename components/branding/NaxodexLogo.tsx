@@ -15,7 +15,7 @@ export default function NAXODEXLogo({
 }: NAXODEXLogoProps) {
   return (
     <Image
-      src="/branding/NAXODEX-logo.png"
+      src="/branding/NAXODEX-LOGO.png"
       alt="NAXODEX"
       width={width}
       height={height}

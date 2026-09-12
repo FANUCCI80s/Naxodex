@@ -176,7 +176,7 @@ export default function KycReviewPage() {
           >
             <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-xl border border-gold/30 bg-gold/10">
               <img
-                src="/branding/NAXODEX-logo.png"
+                src="/branding/NAXODEX-LOGO.png"
                 alt="NAXODEX"
                 className="h-8 w-auto object-contain"
               />

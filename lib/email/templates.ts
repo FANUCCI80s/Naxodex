@@ -18,7 +18,7 @@ export function loginOtpEmail(
     process.env.NEXT_PUBLIC_APP_URL?.replace(/\/$/, "");
 
   const logoUrl = appUrl
-    ? `${appUrl}/branding/NAXODEX-logo.png`
+    ? `${appUrl}/branding/NAXODEX-LOGO.png`
     : "";
 
   const logoMarkup = logoUrl
@@ -523,7 +523,7 @@ export function passwordResetOtpEmail(
     process.env.NEXT_PUBLIC_APP_URL?.replace(/\/$/, "");
 
   const logoUrl = appUrl
-    ? `${appUrl}/branding/NAXODEX-logo.png`
+    ? `${appUrl}/branding/NAXODEX-LOGO.png`
     : "";
 
   const logoMarkup = logoUrl

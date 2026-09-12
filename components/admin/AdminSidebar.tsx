@@ -120,7 +120,7 @@ export default function AdminSidebar() {
           >
             <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-gold/30 bg-gold/10">
               <Image
-                src="/branding/NAXODEX-logo.png"
+                src="/branding/NAXODEX-LOGO.png"
                 alt="NAXODEX"
                 width={40}
                 height={40}

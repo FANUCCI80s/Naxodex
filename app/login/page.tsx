@@ -431,7 +431,7 @@ export default function LoginPage() {
             {/* Brand */}
             <div className="flex justify-center xl:justify-start">
               <Image
-                src="/branding/NAXODEX-logo.png"
+                src="/branding/NAXODEX-LOGO.png"
                 alt="NAXODEX"
                 width={220}
                 height={64}

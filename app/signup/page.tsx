@@ -226,7 +226,7 @@ export default function SignupPage() {
             {/* Mobile centered logo */}
             <div className="mb-10 flex justify-center lg:hidden">
               <Image
-                src="/branding/NAXODEX-logo.png"
+                src="/branding/NAXODEX-LOGO.png"
                 alt="NAXODEX"
                 width={210}
                 height={62}

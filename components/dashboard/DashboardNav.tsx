@@ -124,7 +124,7 @@ export default function DashboardNav() {
             className="inline-flex items-center"
           >
             <img
-              src="/branding/NAXODEX-logo.png"
+              src="/branding/NAXODEX-LOGO.png"
               alt="NAXODEX"
               className="block h-10 w-auto max-w-[190px] object-contain"
             />
@@ -261,7 +261,7 @@ export default function DashboardNav() {
             className="inline-flex items-center"
           >
             <img
-              src="/branding/NAXODEX-logo.png"
+              src="/branding/NAXODEX-LOGO.png"
               alt="NAXODEX"
               className="block h-10 w-auto max-w-[190px] object-contain"
             />

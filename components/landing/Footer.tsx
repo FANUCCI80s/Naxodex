@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="flex items-center gap-3">
               <img
-                src="/branding/NAXODEX-logo.png"
+                src="/branding/NAXODEX-LOGO.png"
                 alt="NAXODEX"
                 className="h-9 w-auto object-contain"
               />
