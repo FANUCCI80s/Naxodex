@@ -9,8 +9,8 @@ interface NAXODEXLogoProps {
 
 export default function NAXODEXLogo({
   className = "",
-  width = 180,
-  height = 52,
+  width = 650,
+  height = 263,
   priority = false,
 }: NAXODEXLogoProps) {
   return (
@@ -20,7 +20,7 @@ export default function NAXODEXLogo({
       width={width}
       height={height}
       priority={priority}
-      className={`block h-auto w-auto max-w-full object-contain ${className}`}
+      className={`block max-w-full object-contain${className}`}
     />
   );
 }
