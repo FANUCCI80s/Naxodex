@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "NAXODEX",
   description: "NAXODEX trading and investment platform",
   icons: {
-    icon: "/branding/coin_logo.png",
+    icon: "/branding/coin-logo.png",
   },
 };
 
